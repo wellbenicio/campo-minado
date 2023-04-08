@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4be84b3e-5af5-4c92-bb5c-c664dd52817f" name="Changes" comment="Implementação lógica da Classe Campo + testes unitários.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/wellyntonbenicio/cm/excecao/ExplosaoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wellyntonbenicio/cm/modelo/Campo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/wellyntonbenicio/cm/modelo/Campo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CampoTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br.com.wellyntonbenicio.cm.modelo/CampoTeste.java" afterDir="false" />
-    </list>
+    <list default="true" id="4be84b3e-5af5-4c92-bb5c-c664dd52817f" name="Changes" comment="Novas implementações lógica da Classe Campo + testes unitários." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680969252340</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Novas implementações lógica da Classe Campo + testes unitários.">
+      <created>1680985076918</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680985076918</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,7 +205,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="Definição dos atributos Classe Campo" />
     <MESSAGE value="Implementação lógica da Classe Campo + testes unitários." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação lógica da Classe Campo + testes unitários." />
+    <MESSAGE value="Novas implementações lógica da Classe Campo + testes unitários." />
+    <option name="LAST_COMMIT_MESSAGE" value="Novas implementações lógica da Classe Campo + testes unitários." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled$CampoTeste.ic" NAME="CampoTeste Coverage Results" MODIFIED="1680971001798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
