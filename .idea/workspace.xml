@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4be84b3e-5af5-4c92-bb5c-c664dd52817f" name="Changes" comment="Definição dos atributos Classe Campo">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CampoTeste.java" afterDir="false" />
+    <list default="true" id="4be84b3e-5af5-4c92-bb5c-c664dd52817f" name="Changes" comment="Implementação lógica da Classe Campo + testes unitários.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/wellyntonbenicio/cm/excecao/ExplosaoException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wellyntonbenicio/cm/modelo/Campo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/wellyntonbenicio/cm/modelo/Campo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Inicial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CampoTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br.com.wellyntonbenicio.cm.modelo/CampoTeste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +47,36 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.wellyntonbenicio.cm.modelo" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.CampoTeste">
     <configuration name="CampoTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CampoTeste" />
+      <option name="PACKAGE_NAME" value="br.com.wellyntonbenicio.cm.modelo" />
+      <option name="MAIN_CLASS_NAME" value="br.com.wellyntonbenicio.cm.modelo.CampoTeste" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CampoTeste.testeVizinhoDistancia2Diagonal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.wellyntonbenicio.cm.modelo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.wellyntonbenicio.cm.modelo" />
+      <option name="MAIN_CLASS_NAME" value="br.com.wellyntonbenicio.cm.modelo.CampoTeste" />
+      <option name="METHOD_NAME" value="testeVizinhoDistancia2Diagonal" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,6 +110,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="br.com.wellyntonbenicio.cm.modelo in untitled" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.wellyntonbenicio.cm.modelo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.wellyntonbenicio.cm.modelo" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="untitled" />
       <method v="2">
@@ -101,6 +142,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CampoTeste" />
+        <item itemvalue="JUnit.CampoTeste.testeVizinhoDistancia2Diagonal" />
         <item itemvalue="JUnit.Inicial" />
         <item itemvalue="JUnit.Inicial.testarSeIgualADois" />
       </list>
@@ -136,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680965096878</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implementação lógica da Classe Campo + testes unitários.">
+      <created>1680969252340</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680969252340</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,17 +203,10 @@
     <MESSAGE value="Structure project" />
     <MESSAGE value="update" />
     <MESSAGE value="Definição dos atributos Classe Campo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Definição dos atributos Classe Campo" />
+    <MESSAGE value="Implementação lógica da Classe Campo + testes unitários." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação lógica da Classe Campo + testes unitários." />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/CampoTeste.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/untitled$CampoTeste.ic" NAME="CampoTeste Coverage Results" MODIFIED="1680971001798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
