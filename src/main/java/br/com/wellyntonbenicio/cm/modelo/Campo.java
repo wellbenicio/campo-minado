@@ -55,7 +55,7 @@ public class Campo {
                 vizinhos.forEach(v -> v.abrir());
             }
             return true;
-        } else{
+        } else {
             return false;
         }
     }
@@ -66,6 +66,10 @@ public class Campo {
 
     void minar() {
         minado = true;
+    }
+
+    public boolean isMinado() {
+        return minado;
     }
 
     public boolean isMarcado() {
