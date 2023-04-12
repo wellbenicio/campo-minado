@@ -75,4 +75,46 @@ public class Campo {
     public boolean isAberto() {
         return aberto;
     }
+
+    public boolean isFechado() {
+        return !isAberto();
+    }
+
+    public int getColuna() {
+        return coluna;
+    }
+
+    public int getLinha() {
+        return linha;
+    }
+
+    boolean objetivoAlcancado() {
+        boolean desvendado = !minado && aberto;
+        boolean protegido = minado && marcado;
+        return desvendado || protegido;
+    }
+
+    long minasNavizinhança() {
+        return vizinhos.stream().filter(v -> v.minado).count();
+    }
+
+    void reiniciar() {
+        aberto = false;
+        minado = false;
+        marcado = false;
+    }
+
+    public String toString() {
+        if (marcado) {
+            return "X";
+        } else if (aberto && minado) {
+            return "*";
+        } else if (aberto && minasNavizinhança() > 0) {
+            return Long.toString(minasNavizinhança());
+        } else if (aberto) {
+            return " ";
+        } else {
+            return "?";
+        }
+    }
 }
