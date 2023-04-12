@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4be84b3e-5af5-4c92-bb5c-c664dd52817f" name="Changes" comment="Novas implementações lógica da Classe Tabuleiro">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/wellyntonbenicio/cm/Aplicacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wellyntonbenicio/cm/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wellyntonbenicio/cm/modelo/Tabuleiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/wellyntonbenicio/cm/modelo/Tabuleiro.java" afterDir="false" />
-    </list>
+    <list default="true" id="4be84b3e-5af5-4c92-bb5c-c664dd52817f" name="Changes" comment="Novas implementações lógica da Classe Tabuleiro" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -213,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681266979036</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Novas implementações lógica da Classe Tabuleiro">
+      <created>1681268230221</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681268230221</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
