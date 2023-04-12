@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4be84b3e-5af5-4c92-bb5c-c664dd52817f" name="Changes" comment="Novas implementações lógica da Classe Campo + testes unitários." />
+    <list default="true" id="4be84b3e-5af5-4c92-bb5c-c664dd52817f" name="Changes" comment="Novas implementações lógica da Classe Tabuleiro">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/wellyntonbenicio/cm/Aplicacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wellyntonbenicio/cm/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wellyntonbenicio/cm/modelo/Tabuleiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/wellyntonbenicio/cm/modelo/Tabuleiro.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +54,20 @@
       <recent name="br.com.wellyntonbenicio.cm.modelo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CampoTeste">
+  <component name="RunManager" selected="Application.Aplicacao">
+    <configuration name="Aplicacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.wellyntonbenicio.cm.Aplicacao" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.wellyntonbenicio.cm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CampoTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="PACKAGE_NAME" value="br.com.wellyntonbenicio.cm.modelo" />
@@ -120,21 +138,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="untitled" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="untitled" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aplicacao" />
         <item itemvalue="JUnit.CampoTeste" />
         <item itemvalue="JUnit.CampoTeste.testeVizinhoDistancia2Diagonal" />
         <item itemvalue="JUnit.Inicial" />
@@ -186,7 +192,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680985076918</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Novas implementações lógica da Classe Campo">
+      <created>1681265598427</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681265598427</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Implementações lógica da Classe Tabuleiro">
+      <created>1681266310984</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681266310984</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Novas implementações lógica da Classe Tabuleiro">
+      <created>1681266979036</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681266979036</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,7 +233,10 @@
     <MESSAGE value="Definição dos atributos Classe Campo" />
     <MESSAGE value="Implementação lógica da Classe Campo + testes unitários." />
     <MESSAGE value="Novas implementações lógica da Classe Campo + testes unitários." />
-    <option name="LAST_COMMIT_MESSAGE" value="Novas implementações lógica da Classe Campo + testes unitários." />
+    <MESSAGE value="Novas implementações lógica da Classe Campo" />
+    <MESSAGE value="Implementações lógica da Classe Tabuleiro" />
+    <MESSAGE value="Novas implementações lógica da Classe Tabuleiro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Novas implementações lógica da Classe Tabuleiro" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled$CampoTeste.ic" NAME="CampoTeste Coverage Results" MODIFIED="1680971001798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
