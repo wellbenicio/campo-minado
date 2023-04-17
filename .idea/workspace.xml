@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4be84b3e-5af5-4c92-bb5c-c664dd52817f" name="Changes" comment="Criação Classe TabuleiroConsole">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/wellyntonbenicio/cm/excecao/SairException.java" afterDir="false" />
+    <list default="true" id="4be84b3e-5af5-4c92-bb5c-c664dd52817f" name="Changes" comment="Criação Exception Sair">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wellyntonbenicio/cm/visao/TabuleiroConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/wellyntonbenicio/cm/visao/TabuleiroConsole.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681772344142</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Criação Exception Sair">
+      <created>1681772438314</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681772438314</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,7 +271,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="Refactor toString classe Tabuleiro" />
     <MESSAGE value="Criação Classe TabuleiroConsole" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação Classe TabuleiroConsole" />
+    <MESSAGE value="Criação Exception Sair" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação Exception Sair" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled$CampoTeste.ic" NAME="CampoTeste Coverage Results" MODIFIED="1680971001798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
