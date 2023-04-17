@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4be84b3e-5af5-4c92-bb5c-c664dd52817f" name="Changes" comment="Integração lógica criada com inputs via console.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wellyntonbenicio/cm/modelo/Campo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/wellyntonbenicio/cm/modelo/Campo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wellyntonbenicio/cm/modelo/Tabuleiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/wellyntonbenicio/cm/modelo/Tabuleiro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/wellyntonbenicio/cm/visao/TabuleiroConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/wellyntonbenicio/cm/visao/TabuleiroConsole.java" afterDir="false" />
-    </list>
+    <list default="true" id="4be84b3e-5af5-4c92-bb5c-c664dd52817f" name="Changes" comment="Implementação que mostra para usuário onde estão as bombas" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -255,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681773982069</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Implementação que mostra para usuário onde estão as bombas">
+      <created>1681774451568</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681774451568</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,7 +284,8 @@
     <MESSAGE value="Criação Classe TabuleiroConsole" />
     <MESSAGE value="Criação Exception Sair" />
     <MESSAGE value="Integração lógica criada com inputs via console." />
-    <option name="LAST_COMMIT_MESSAGE" value="Integração lógica criada com inputs via console." />
+    <MESSAGE value="Implementação que mostra para usuário onde estão as bombas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação que mostra para usuário onde estão as bombas" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled$CampoTeste.ic" NAME="CampoTeste Coverage Results" MODIFIED="1680971001798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

@@ -42,8 +42,8 @@ public class Tabuleiro {
         long minasArmadas = 0;
         Predicate<Campo> minado = c -> c.isMinado();
         do {
-            minasArmadas = campos.stream().filter(minado).count();
             int aleatorio = (int) (Math.random() * campos.size());
+            minasArmadas = campos.stream().filter(minado).count();
             campos.get(aleatorio).minar();
         } while (minasArmadas < minas);
     }
@@ -57,28 +57,28 @@ public class Tabuleiro {
         sortearMinas();
     }
 
-    public void abrir(int linha, int coluna){
+    public void abrir(int linha, int coluna) {
 
-        try{
+        try {
             campos.parallelStream()
                     .filter(c -> c.getLinha() == linha && c.getColuna() == coluna)
                     .findFirst()
                     .ifPresent(c -> c.abrir());
-        }catch (ExplosaoException e ){
+        } catch (ExplosaoException e) {
             campos.forEach(c -> c.setAberto(true));
             throw e;
         }
 
     }
 
-    public void alternarMarcacao(int linha, int coluna){
+    public void alternarMarcacao(int linha, int coluna) {
         campos.parallelStream()
                 .filter(c -> c.getLinha() == linha && c.getColuna() == coluna)
                 .findFirst()
                 .ifPresent(c -> c.alternarMarcacao());
     }
 
-    public String toString(){
+    public String toString() {
         StringBuilder sb = new StringBuilder();
 
         int i = 0;
