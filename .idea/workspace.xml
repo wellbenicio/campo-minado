@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4be84b3e-5af5-4c92-bb5c-c664dd52817f" name="Changes" comment="Novas implementações lógica da Classe Tabuleiro" />
+    <list default="true" id="4be84b3e-5af5-4c92-bb5c-c664dd52817f" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_04_2023_11_02_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_04_2023_11_02__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_04_2023_11_03_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_04_2023_11_03__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -215,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681268230221</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update">
+      <created>1681268291859</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681268291859</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,14 +244,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Structure project" />
-    <MESSAGE value="update" />
     <MESSAGE value="Definição dos atributos Classe Campo" />
     <MESSAGE value="Implementação lógica da Classe Campo + testes unitários." />
     <MESSAGE value="Novas implementações lógica da Classe Campo + testes unitários." />
     <MESSAGE value="Novas implementações lógica da Classe Campo" />
     <MESSAGE value="Implementações lógica da Classe Tabuleiro" />
     <MESSAGE value="Novas implementações lógica da Classe Tabuleiro" />
-    <option name="LAST_COMMIT_MESSAGE" value="Novas implementações lógica da Classe Tabuleiro" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/untitled$CampoTeste.ic" NAME="CampoTeste Coverage Results" MODIFIED="1680971001798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

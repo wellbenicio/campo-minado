@@ -75,9 +75,10 @@ public class Tabuleiro {
         int i = 0;
         for (int linha = 0; linha < linhas; linha++) {
             for (int coluna = 0; coluna < colunas; coluna++) {
-                sb.append("");
+                sb.append(" ");
                 sb.append(campos.get(i));
-                sb.append("");
+                sb.append(" ");
+                i++;
             }
             sb.append("\n");
         }
