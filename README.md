@@ -2,8 +2,8 @@
 
 Projeto simples, com objetivo de implementar alguns conceitos básicos de Java. 
 
-## The Project
-
+## Projeto
+![image](https://user-images.githubusercontent.com/62622936/236962710-7c21edd0-eaed-4eb8-85d6-0f81a3fca0ec.png)
 
 
 ## Features
@@ -11,31 +11,15 @@ Projeto simples, com objetivo de implementar alguns conceitos básicos de Java.
 - Jogabilidade via terminal
 
 
-## Run Locally
+## Rode Localmente
 
-Clone the project
-
-```bash
-  git clone https://link-to-project
-```
-
-Go to the project directory
+Clone o projeto
 
 ```bash
-  cd my-project
+  git clone git@github.com:wellbenicio/campo-minado.git (ssh)
 ```
 
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm run start
-```
+Vá até o diretório do projeto, abra em seu editor de código de preferência e execute a aplicação para conseguir jogar via terminal. 
 
 
 ## Tech Stack
